@@ -263,7 +263,7 @@ main {
   }
   .overlay {
     width: 411px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(4px);
   }
   .instructions {
     width: 375px;
