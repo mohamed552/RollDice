@@ -66,7 +66,7 @@ body {
 main {
   position: relative;
   width: 100rem;
-  height: 60rem;
+  height: 58rem;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
   filter: blur();
@@ -209,6 +209,14 @@ main {
 .hidden {
   display: none;
 }
+.ending {
+  position: fixed;
+  margin-top: 606px;
+  font-size: 12px;
+  color: rgb(41, 40, 40);
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
 @media (max-width: 425px) {
   .player {
     width: 20px;
@@ -284,6 +292,9 @@ main {
     height: 50px;
     border-radius: 10px;
   }
+  .ending {
+    position: fixed;
+    margin-top: 600px;
 }
 @media (max-width: 321px) {
   .overlay {
@@ -310,4 +321,8 @@ main {
     padding-right: 0px;
     margin-right: 20px;
   }
+  .ending {
+    position: fixed;
+    margin-top: 552px;
+}
 }
